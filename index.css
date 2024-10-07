@@ -1,7 +1,5 @@
 body 
 {
-background-image: url("pictures/garrido_kobete_ma.jpg");
-
-background-size: cover;
-
+    background-image: url("pictures/garrido_kobete_ma.jpg");
+    background-size: cover;
 }
