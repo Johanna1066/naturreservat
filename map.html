@@ -3,29 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="map.css">
     <title>Kartor</title>
 </head>
 <body>
-    <header>   
+    <header>    
+        <nav>  
+            <a href="index.html" >Home</a>
+        </nav> 
         <h1 id="top-header">
         <strong>Tinnerö Naturreservat<strong>
         </h1>
-        <nav class="menu">  
-            <ul>
-                <a href="index.html" >Home</a>
-                <a href="" class="active">Karta</a>
-                <a href="">Beskrivning</a>
-            </ul>
-        </nav>
+      
     </header>
-    <figure style="align-self: center;">
-        <img src="pictures/Karta_pic_1 (1).jpg" alt="Map over Tinnerö Naturreservat">
-        <figcaption>Bild över Naturreservat, somliga spår</figcaption>
-    </figure>
+    <section id="karta">
+        <figure class="kartor">
+            <img src="pictures/Karta_pic_1 (1).jpg" alt="Map over Tinnerö Naturreservat" >
+            <figcaption>Bild över Naturreservat, somliga spår</figcaption>
+        </figure>
+        <figure class="kartor">
+            <iframe title="Tinnero Live View" height="500" width="500" src="https://dashboard.qulinda.com/live-view/#workspaces/tinnero"></iframe>
+            <figcaption>Live-vy över var korna befinner sig i naturreservatet</figcaption>
+        </figure>
+    </section>
     <div style="align-self: center;">
         <embed src="pictures/Stor_karta (1).pdf" style="width: 100%; height: 1000px;" type="application/pdf">
     </div>
+   
 </body>
 </html>

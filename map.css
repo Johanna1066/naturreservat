@@ -1,0 +1,46 @@
+body 
+{
+    background-image: url("pictures/garrido_kobete_ma.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top-header 
+{ /*Huvud rubrik*/
+    color: rgba(237, 237, 237, 0.94);
+    font-family: lato;
+    margin-left: 12%;
+    font-size: 70px;
+}
+
+header nav
+{
+    padding: 1%;
+    background-color: rgba(237, 237, 237, 0.94);
+    align-self: flex-start;
+    border-radius: 15px;
+    margin-left: 12%;
+    width: fit-content;
+}
+
+#karta
+{
+    align-self: center;
+    align-items: top;
+    justify-content: space-evenly; 
+    display: flex;  
+}
+
+
+figcaption
+{
+    background-color: rgba(237, 237, 237, 0.7);
+    font-family: lato;
+    width: fit-content;
+    padding: 2%;
+}
+
+.kartor
+{
+    align-items: center;
+}
